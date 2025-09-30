@@ -1,0 +1,27 @@
+{
+    "Asterisk": {
+      "prefix": "ast",
+      "body": ["^{\\ast}$1"],
+      "description": "asterisk"
+    },
+    "Prime": {
+      "prefix": "prime",
+      "body": ["^{\\prime}$1"],
+      "description": "prime"
+    },
+    "Begin Environment": {
+      "prefix": "begg",
+      "body": ["\\begin{$1}", "$0", "\\end{$1}"],
+      "description": "prime"
+    },
+    "Begin Equation Environment": {
+      "prefix": "beq",
+      "body": ["\\begin{equation*}", "$0", "\\end{equation*}"],
+      "description": "prime"
+    },
+    "Begin Align Environment": {
+      "prefix": "bal",
+      "body": ["\\begin{align*}", "$0", "\\end{align*}"],
+      "description": "prime"
+    }
+  }

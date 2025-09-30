@@ -1,0 +1,6 @@
+.DS_Store
+
+.config/git/
+.config/github-copilot/
+.config/raycast/
+.config/uv/
