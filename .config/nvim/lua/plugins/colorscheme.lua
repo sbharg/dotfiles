@@ -4,15 +4,14 @@ return {
     priority = 1000,
     lazy = false,
     name = "no-clown-fiesta",
-    commit = "2f57d11",
+    --  commit = "2f57d11",
     config = function()
-      require("no-clown-fiesta").setup({
+      require("no-clown-fiesta").load({
         theme = "dark",
         styles = {
           ["@type.cpp"] = { fg = "#7E97AB" },
         },
       })
-      require("no-clown-fiesta").load()
     end,
   },
   {
